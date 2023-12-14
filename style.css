@@ -1,0 +1,42 @@
+body {
+    background: #f2f2f2;
+}
+
+section{
+    min-height: 100vh;
+}
+
+.navbar-nav a.active {
+    color: #BB8AC2; 
+    font-style: montserrat;
+}
+
+h1 {
+    font-style: Montagu Slab;
+    color:  #BB8AC2;
+}
+
+h3 {
+    font-style: Montagu Slab;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Gaya untuk membuat div container full height */
+.full-height {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+  /* Gaya untuk membuat gambar di pojok kiri bawah */
+.corner-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 50%;
+    height: auto;
+    z-index: 1; /* Mengatur z-index untuk memastikan gambar berada di depan konten lainnya */
+}
